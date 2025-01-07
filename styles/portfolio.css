@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+/* font-family: "Open Sans", serif; */
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", serif;
+}
+/* Global styles */
+/* shared styles */
+.secondary-bg {
+  background-color: #fff8f3;
+}
+.text-primary {
+  color: #fd6e0a;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #757575;
+}
+.btn-primary {
+  padding: 18px 35px;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #fd6e0a;
+  color: white;
+  cursor: pointer;
+}
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-desc {
+  font-size: 18px;
+  color: #757575;
+}
+.text-center {
+  text-align: center;
+}
+/* shared styles */
+/* nav styles */
+header {
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 200px;
+  padding: 20px 0;
+}
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  margin-right: 50px;
+}
+nav ul li {
+  list-style-type: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+/* nav styles */
+/* banner styles */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 38px 0 200px;
+  align-items: center;
+}
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.banner-content {
+  width: 585px;
+}
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.banner-description {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.banner-profile-pic {
+  width: 580px;
+}
+/* banner styles */
+/* about styles */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+#about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  margin: 100px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.about-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+/* skill styles */
+#skills {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.skills-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.skill {
+  padding: 30px 33px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  /* margin-right: 20px; */
+}
+.skill img {
+  width: 44px;
+  height: 44px;
+}
+.skill-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* resume styles */
+#resume {
+  margin: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.resume-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+  justify-content: space-between;
+}
+.experience {
+  padding: 25px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.resume-title {
+  font-size: 30px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-title {
+  font-size: 25px;
+  font-weight: bold;
+  color: #474747;
+}
+.experience-subtitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: #757575;
+}
+.experience-desc {
+  font-size: 16px;
+  color: #757575;
+}
+/*  footer styles */
+footer {
+  margin: 100px 0 0 0;
+  padding: 50px 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.footer-share {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 0 40px;
+  width: 50;
+}
+.social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 50%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+form input,
+textarea {
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 15px 10px;
+  border: none;
+  outline: none;
+  resize: none;
+}
