@@ -29,6 +29,15 @@
   background-color: #fd6e0a;
   color: white;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn-conatiner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
 .section-title {
   font-size: 35px;
