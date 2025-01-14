@@ -139,6 +139,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 20px;
 }
 .skills-container {
   display: flex;
@@ -242,4 +243,39 @@ textarea {
   border: none;
   outline: none;
   resize: none;
+}
+
+/* responsive media query */
+.hide {
+  display: none;
+}
+@media screen and (max-width: 576px) {
+  .skills-container {
+    flex-direction: column;
+    margin: 0;
+  }
+  .resume-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+  footer {
+    flex-direction: column;
+    margin: 0;
+    padding: 20px;
+  }
+  .footer-share {
+    width: 100%;
+    padding: 0;
+  }
+  .footer-contact {
+    width: 100%;
+  }
+  #about {
+    margin: 0;
+    padding: 20px;
+  }
+  .about-items {
+    flex-direction: column;
+    gap: 20px;
+  }
 }
